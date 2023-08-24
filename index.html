@@ -18,7 +18,7 @@
   <body>
     <!--Navbar-->
     <nav
-      class="navbar navbar-expand-lg navbar-dark py-4"
+      class="navbar navbar-expand-lg navbar-dark fixed-top py-4"
       style="background-color: #1f2641"
     >
       <div class="container">
@@ -59,33 +59,38 @@
     </nav>
 
     <!--Hero Section-->
-    <section class="hero text-white" style="background-color: #1f2641;">
+    <section class="hero text-white vh-100 d-flex align-items-center" style="background-color: #1f2641">
       <div class="container">
-        <div class="row py-5">
+        <div class="row">
           <div class="col-md">
-            <h1 class="h1 mb-2">Digital Platform for All Student Activity</h1>
-            <p class="lead mb-2">
+            <h1 class="display-2 fw-bold mb-4">
+              Digital platform for all student activity.
+            </h1>
+            <p class="lead mb-4">
               Networking with lecturer and also collegiate
             </p>
             <button
-              class="btn btn-primary d-flex px-3 py-2 gap-2 align-items-center"
+              class="btn btn-primary mb-4 d-flex px-4 py-3 gap-2 align-items-center"
             >
               <i class="bi bi-cloud-download" style="font-size: 1.3rem"></i
               >Download App
             </button>
-            <div class="row">
-              <div class="col">
-                <i class="bi bi-star-fill fs-2"></i> <span class="h2">4,9</span>
-                <span class="d-block">Reviews</span>
+
+            <div class="d-flex mt-5 pt-5">
+              <div class="pe-5">
+                <i class="bi bi-star-fill fs-2 me-2"></i>
+                <span class="h2">4,9</span>
+                <span class="d-block text-end">Reviews</span>
               </div>
-              <div class="col">
-                <i class="bi bi-chat-left-heart fs-2"></i> <span class="h2">189</span>
-                <span class="d-block">Good Responses</span>
+              <div class="px-5">
+                <i class="bi bi-chat-left-heart fs-2 me-2"></i>
+                <span class="h2">189</span>
+                <span class="d-block text-end">Good Responses</span>
               </div>
             </div>
           </div>
           <div class="col-md">
-            <img src="" alt="" />
+            <img class="img-fluid" src="./hero.png" alt="" />
           </div>
         </div>
       </div>
